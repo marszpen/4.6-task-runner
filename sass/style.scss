@@ -1,3 +1,15 @@
+
+$font-header: 'Source Sens Pro';
+$font-text: 'sens-serif';
+
 splash {
     background-image: url('https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+.page-title {
+    font-family: $font-header;
+}
+
+.page-subtitle {
+    font-family: $font-text;
 }
