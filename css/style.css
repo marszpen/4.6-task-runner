@@ -1,3 +1,8 @@
-splash{background-image:url("https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")}.page-title{font-family:"Source Sens Pro"}.page-subtitle{font-family:"sens-serif"}
+.splash {
+    background-image:url("https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+}
+.page-title {
+    font-family:"Source Sens Pro"}.page-subtitle{font-family:"sens-serif"
+}
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLHFJQUFxSSxDQUFDLFlBQVksNkJBQTZCLENBQUMsZUFBZSx3QkFBd0IiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsic3BsYXNoe2JhY2tncm91bmQtaW1hZ2U6dXJsKFwiaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvODQ5ODM1L3BleGVscy1waG90by04NDk4MzUuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTI2MCZoPTc1MCZkcHI9MlwiKX0ucGFnZS10aXRsZXtmb250LWZhbWlseTpcIlNvdXJjZSBTZW5zIFByb1wifS5wYWdlLXN1YnRpdGxle2ZvbnQtZmFtaWx5Olwic2Vucy1zZXJpZlwifVxuIl19 */

@@ -1,9 +1,15 @@
-
 $font-header: 'Source Sens Pro';
 $font-text: 'sens-serif';
 
-splash {
-    background-image: url('https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+/*Splash*/
+.splash-item {
+    height: 100vh;
+    position: relative;
+}
+
+.splash-inner img {
+    position: absolute;
+    object-fit: cover;
 }
 
 .page-title {
@@ -13,3 +19,50 @@ splash {
 .page-subtitle {
     font-family: $font-text;
 }
+
+/*Services*/
+.serv-image {
+    color:rgb(9, 101, 29);
+}
+.serv-image i {
+    font-size: 35px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #1a6429;
+    border-radius: 50%;
+}
+
+/*Portfolio*/
+.portfolio p {
+    color:grey;
+}
+
+/*Footer*/
+.page-footer {
+    display: flex; 
+    }
+  
+  .page-footer ul {
+    padding: 0; 
+    }
+  
+  .page-footer li {
+    display: inline-block;
+    font-size: 0px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    transition: all 1s; 
+    }
+  
+  .page-footer i {
+    font-size: 30px;
+    background-color: #FFC312;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center; 
+    }
