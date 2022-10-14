@@ -2,6 +2,11 @@ $font-header: 'Source Sens Pro';
 $font-text: 'sens-serif';
 
 /*Splash*/
+
+.splash {
+    background-image: url('https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
 .splash-item {
     height: 100vh;
     position: relative;
@@ -22,22 +27,22 @@ $font-text: 'sens-serif';
 
 /*Services*/
 .serv-image {
-    color:rgb(9, 101, 29);
+    color:rgb(22, 75, 9);
 }
 .serv-image i {
     font-size: 35px;
     background: #fff;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     line-height: 40px;
-    color: #1a6429;
+    color: #1d5c10;
     border-radius: 50%;
     border: 1px solid green;
 }
 
 /*Portfolio*/
-.portfolio p {
-    color:grey;
+.portfolio {
+    color:#eff2f5;
 }
 
 /*Footer*/
@@ -59,11 +64,11 @@ $font-text: 'sens-serif';
   
   .page-footer i {
     font-size: 30px;
-    background-color: #FFC312;
+    background-color: #0b6461;
     color: white;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     line-height: 60px;
     text-align: center; 
     }
