@@ -32,17 +32,19 @@ $font-text: 'sens-serif';
 .serv-image i {
     font-size: 35px;
     background: #fff;
-    width: 30px;
-    height: 30px;
-    line-height: 40px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     color: #1d5c10;
     border-radius: 50%;
     border: 1px solid green;
+    margin: 0 auto;
 }
 
 /*Portfolio*/
 .portfolio {
-    color:#eff2f5;
+    color: #000102;
+    background: #eff2f5;
 }
 
 /*Footer*/
@@ -62,7 +64,7 @@ $font-text: 'sens-serif';
     transition: all 1s; 
     }
   
-  .page-footer i {
+  .box i {
     font-size: 30px;
     background-color: #0b6461;
     color: white;
@@ -71,4 +73,5 @@ $font-text: 'sens-serif';
     height: 30px;
     line-height: 60px;
     text-align: center; 
+    margin: 0 auto;
     }
