@@ -3,10 +3,6 @@ $font-text: 'sens-serif';
 
 /*Splash*/
 
-.splash {
-    background-image: url('https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-}
-
 .splash-item {
     height: 100vh;
     position: relative;
@@ -32,9 +28,9 @@ $font-text: 'sens-serif';
 .serv-image i {
     font-size: 35px;
     background: #fff;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
     color: #1d5c10;
     border-radius: 50%;
     border: 1px solid green;
@@ -51,27 +47,19 @@ $font-text: 'sens-serif';
 .page-footer {
     display: flex; 
     }
-  
-  .page-footer ul {
-    padding: 0; 
-    }
-  
-  .page-footer li {
-    display: inline-block;
+
+.box-media a {
     font-size: 0px;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    transition: all 1s; 
-    }
-  
-  .box i {
+}
+.box-media i {
     font-size: 30px;
     background-color: #0b6461;
     color: white;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     line-height: 60px;
     text-align: center; 
     margin: 0 auto;
+    transition: all 1s; 
     }
