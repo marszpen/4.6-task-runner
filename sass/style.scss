@@ -1,6 +1,18 @@
 $font-header: 'Source Sens Pro';
 $font-text: 'sens-serif';
 
+/*Navigation*/
+.navbar {
+    opacity: 0.0;
+}
+
+.nav {
+    float: right;
+}
+.nav-link {
+    color: rgb(21, 4, 75);
+}
+
 /*Splash*/
 
 .splash-item {
