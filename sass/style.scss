@@ -2,36 +2,28 @@ $font-header: 'Source Sens Pro';
 $font-text: 'sens-serif';
 
 /*Navigation*/
-.navbar {
-    opacity: 0.0;
-}
 
-.nav {
-    float: right;
-}
 .nav-link {
     color: rgb(21, 4, 75);
 }
 
 /*Splash*/
 
-.splash-item {
+.splash img{
     height: 100vh;
-    position: relative;
-}
-
-.splash-inner img {
-    position: absolute;
     object-fit: cover;
 }
-
-.page-title {
-    font-family: $font-header;
+.splash-inner {
+    top: 250px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.page-title, .page-subtitle {
+    font-family: $font-header; 
+    color: rgb(5, 7, 3)
 }
 
-.page-subtitle {
-    font-family: $font-text;
-}
 
 /*Services*/
 .serv-image {
@@ -40,9 +32,9 @@ $font-text: 'sens-serif';
 .serv-image i {
     font-size: 35px;
     background: #fff;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     color: #1d5c10;
     border-radius: 50%;
     border: 1px solid green;
@@ -64,13 +56,13 @@ $font-text: 'sens-serif';
     font-size: 0px;
 }
 .box-media i {
-    font-size: 30px;
+    font-size: 18px;
     background-color: #0b6461;
     color: white;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     text-align: center; 
     margin: 0 auto;
     transition: all 1s; 
