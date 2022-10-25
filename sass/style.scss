@@ -24,21 +24,24 @@ $font-text: 'sens-serif';
     color: rgb(5, 7, 3)
 }
 
-
 /*Services*/
 .serv-image {
     color:rgb(22, 75, 9);
 }
 .serv-image i {
-    font-size: 35px;
+    font-size: 20px;
     background: #fff;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     color: #1d5c10;
     border-radius: 50%;
     border: 1px solid green;
     margin: 0 auto;
+}
+
+.serv-body p{
+    text-align: justify;
 }
 
 /*Portfolio*/
